@@ -92,10 +92,27 @@ a:hover {
 }
 
 .nav-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   font-weight: 700;
   font-size: 1.25rem;
   letter-spacing: 0.05em;
   color: var(--accent);
+}
+
+.nav-photo {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid var(--border);
+  transition: border-color 0.35s var(--ease-out-smooth), box-shadow 0.35s var(--ease-out-smooth);
+}
+
+.nav-logo:hover .nav-photo {
+  border-color: var(--accent-dim);
+  box-shadow: 0 0 16px var(--accent-dim);
 }
 
 .nav-links {
