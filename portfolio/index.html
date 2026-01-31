@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kumar Apoorb | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="noise-overlay" aria-hidden="true"></div>
+
+  <nav class="nav">
+    <a href="#hero" class="nav-logo">
+      <img src="assets/profile.png" alt="Kumar Apoorv" class="nav-photo" width="40" height="40" />
+      <span class="nav-logo-text">KUMAR APOORB</span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-bg">
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+        <div class="grid-pattern"></div>
+      </div>
+      <div class="hero-content">
+        <p class="hero-greeting animate-in">Hello, I'm</p>
+        <h1 class="hero-name animate-in" style="--delay: 0.1s">Kumar Apoorb</h1>
+        <p class="hero-tagline animate-in" style="--delay: 0.2s">
+          <span class="tagline-text">Software Developer</span>
+          <span class="cursor">|</span>
+        </p>
+        <p class="hero-desc animate-in" style="--delay: 0.35s">
+          Building user-friendly, responsive & efficient web applications with JavaScript & Node.js
+        </p>
+        <div class="hero-cta animate-in" style="--delay: 0.5s">
+          <a href="#projects" class="btn btn-primary">View Projects</a>
+          <a href="#contact" class="btn btn-ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="scroll-hint">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <h2 class="section-title reveal">About</h2>
+      <div class="about-card reveal">
+        <p>
+          A passionate <strong>Software Developer</strong> (Building user-friendly, responsive & efficient web applications with <strong>JavaScript</strong>, <strong>Node.js</strong> & <strong>Java</strong>). 
+          Strong foundation in web technologies. Eager to apply my skills 
+          and creativity to real-world projects and contribute to a forward-thinking team.
+        </p>
+        <div class="about-meta">
+          <span>📍 Mumbai, Maharashtra</span>
+          <a href="mailto:kumarapoorv8806@gmail.com">kumarapoorv8806@gmail.com</a>
+          <a href="tel:+918709254543">+91 8709254543</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-dark">
+      <h2 class="section-title reveal">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category reveal" style="--i: 0">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span>Java</span><span>JavaScript</span><span>Python</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" style="--i: 1">
+          <h3>Frameworks & Technologies</h3>
+          <div class="skill-tags">
+            <span>Node.js</span><span>Qiskit</span><span>Spring Boot</span><span>Streamlit</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" style="--i: 2">
+          <h3>Databases</h3>
+          <div class="skill-tags">
+            <span>MongoDB</span><span>MySQL</span>
+          </div>
+        </div>
+        <div class="skill-category reveal" style="--i: 3">
+          <h3>Developer Tools</h3>
+          <div class="skill-tags">
+            <span>AWS</span><span>Git</span><span>GitHub</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <h2 class="section-title reveal">Projects</h2>
+      <div class="projects-list">
+        <article class="project-card reveal" style="--i: 0">
+          <div class="project-header">
+            <h3>Quantum-Secured Encryption Application</h3>
+            <span class="project-date">01/2025 – 03/2025</span>
+          </div>
+          <ul>
+            <li>Developed a Python application for encrypting and decrypting text and media files using a hybrid quantum-classical cryptographic approach.</li>
+            <li>Implemented a Quantum Key Distribution (QKD) protocol with Qiskit to securely generate and exchange cryptographic keys.</li>
+            <li>Utilized AES for symmetric encryption and built an intuitive UI with Streamlit.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Python</span><span>Qiskit</span><span>AES</span><span>Streamlit</span>
+          </div>
+        </article>
+        <article class="project-card reveal" style="--i: 1">
+          <div class="project-header">
+            <h3>Fog vs Cloud Architectures — iFogSim</h3>
+            <span class="project-date">09/2024 – 11/2024</span>
+          </div>
+          <ul>
+            <li>Conducted comparative performance analysis in Java between Fog and Cloud computing using iFogSim.</li>
+            <li>Simulated real-time medical data processing; Fog model showed lower latency and network usage.</li>
+            <li>Demonstrated advantages of Fog computing for time-sensitive IoT applications in healthcare.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Java</span><span>iFogSim</span><span>IoT</span>
+          </div>
+        </article>
+        <article class="project-card reveal" style="--i: 2">
+          <div class="project-header">
+            <h3>Rail Madad — Grievance Redressal System</h3>
+          </div>
+          <ul>
+            <li>Engineered back-end service using Java and Spring Boot for a comprehensive railway grievance redressal system.</li>
+            <li>Designed core workflow: users register complaints, assigned to officers for resolution.</li>
+            <li>Developed real-time complaint status tracking for process transparency.</li>
+          </ul>
+          <div class="project-tags">
+            <span>Java</span><span>Spring Boot</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="certifications" class="section section-dark">
+      <h2 class="section-title reveal">Certifications</h2>
+      <div class="cert-grid">
+        <div class="cert-card reveal" style="--i: 0">
+          <div class="cert-icon">📜</div>
+          <h3>Internship in Web Development</h3>
+          <p>Corizo Edutech</p>
+          <span class="cert-date">01/2024</span>
+        </div>
+        <div class="cert-card reveal" style="--i: 1">
+          <div class="cert-icon">☁️</div>
+          <h3>AWS Cloud Practitioner</h3>
+          <p>Amazon Web Services</p>
+          <span class="cert-date">01/2024</span>
+        </div>
+      </div>
+    </section>
+
+    <section id="publications" class="section">
+      <h2 class="section-title reveal">Publication</h2>
+      <div class="pub-card reveal">
+        <h3>Stock Market Analysis using Long Short-Term Model</h3>
+        <p>European Alliance for Innovation (EAI)</p>
+        <span class="pub-date">11/2023</span>
+        <a href="https://publications.eai.eu/index.php/sis/article/view/4446/2704" target="_blank" rel="noopener" class="pub-link">Read paper →</a>
+      </div>
+    </section>
+
+    <section id="education" class="section section-dark">
+      <h2 class="section-title reveal">Education</h2>
+      <div class="edu-timeline">
+        <div class="edu-item reveal" style="--i: 0">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Bachelor of Technology (B.Tech.) — Computer Science</h3>
+            <p>Vellore Institute of Technology, AP</p>
+            <span>08/2021 – 07/2025</span>
+          </div>
+        </div>
+        <div class="edu-item reveal" style="--i: 1">
+          <div class="edu-dot"></div>
+          <div class="edu-content">
+            <h3>Intermediate Education</h3>
+            <p>Shivam School Bihta Patna</p>
+            <span>05/2019 – 06/2021</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <h2 class="section-title reveal">Get in Touch</h2>
+      <div class="contact-card reveal">
+        <p>Open to opportunities and collaborations.</p>
+        <div class="contact-links">
+          <a href="mailto:kumarapoorv8806@gmail.com" class="contact-link">
+            <span class="contact-icon">✉️</span> kumarapoorv8806@gmail.com
+          </a>
+          <a href="tel:+918709254543" class="contact-link">
+            <span class="contact-icon">📞</span> +91 8709254543
+          </a>
+          <a href="https://linkedin.com/in/kumar-apoorv-2a3468250" target="_blank" rel="noopener" class="contact-link">
+            <span class="contact-icon">LinkedIn</span> kumar-apoorv-2a3468250
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Apoorv Kumar. Built with care.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
